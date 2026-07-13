@@ -1,0 +1,86 @@
+feature_id,feature_name,sprint,module,files_changed,lines_added,lines_deleted,complexity_score,developer_experience,team_size,past_defect_rate,test_coverage,automation_coverage,regression_failures,story_points,dependencies,days_to_release,bugs_found,risk_label
+1,Login Flow,15,Auth,5,120,45,2,Senior,1,0.05,0.95,0.90,0,3,0,15,1,Low
+2,Search Optimization,15,Search,2,30,15,1,Senior,1,0.02,0.92,0.85,0,2,0,15,0,Low
+3,User Profile,15,User,3,85,25,2,Senior,2,0.04,0.88,0.80,0,3,1,14,1,Low
+4,Dashboard,15,Analytics,4,110,40,3,Mid,2,0.08,0.85,0.75,1,4,1,13,2,Low
+5,Notification Service,15,Notifications,6,200,80,3,Mid,2,0.10,0.80,0.70,2,5,2,12,2,Low
+6,Cart Management,16,Commerce,10,450,150,5,Mid,3,0.12,0.65,0.55,3,8,2,10,4,Medium
+7,Checkout Flow,16,Commerce,9,380,120,4,Mid,2,0.12,0.70,0.60,2,7,3,9,3,Medium
+8,Inventory Sync,16,Inventory,7,250,90,3,Junior,2,0.15,0.68,0.58,3,6,2,11,3,Medium
+9,Reporting Engine,16,Analytics,8,320,110,4,Mid,3,0.10,0.72,0.65,2,7,1,10,2,Medium
+10,CRM Integration,16,Integration,11,520,180,6,Junior,3,0.18,0.60,0.50,4,9,4,8,5,Medium
+11,Payment Gateway,17,Payment,14,780,250,8,Junior,2,0.20,0.45,0.40,6,13,3,5,8,High
+12,Fraud Detection,17,Payment,12,650,200,7,Junior,2,0.18,0.50,0.45,5,11,2,6,7,High
+13,Advanced Filtering,17,Search,10,420,140,6,Junior,2,0.15,0.55,0.48,4,9,1,7,6,High
+14,Incident Management,17,Services,13,720,250,7,Junior,3,0.22,0.48,0.42,5,12,4,4,7,High
+15,API Rate Limiting,17,Platform,11,580,200,6,Junior,2,0.20,0.52,0.46,4,10,2,5,6,High
+16,Email Templates,15,Notifications,4,95,35,2,Senior,1,0.05,0.90,0.85,0,3,1,14,0,Low
+17,SMS Gateway,15,Notifications,5,150,55,2,Senior,2,0.06,0.88,0.82,0,3,1,13,1,Low
+18,Two-Factor Auth,15,Auth,8,280,100,3,Mid,2,0.12,0.82,0.75,1,6,1,12,2,Medium
+19,OAuth Integration,15,Auth,10,400,140,5,Junior,2,0.18,0.65,0.55,3,8,3,10,4,Medium
+20,Session Management,15,Auth,7,240,85,3,Mid,2,0.10,0.80,0.72,1,5,1,11,2,Medium
+21,User Permissions,15,Auth,9,350,120,4,Junior,2,0.16,0.70,0.62,3,8,2,9,4,Medium
+22,Audit Logging,15,Security,6,180,60,2,Mid,2,0.08,0.85,0.78,0,4,1,13,1,Low
+23,Data Encryption,15,Security,8,320,110,4,Senior,2,0.04,0.92,0.88,0,7,1,11,1,Low
+24,Backup System,15,Infrastructure,5,160,55,2,Senior,1,0.03,0.90,0.85,0,4,2,14,0,Low
+25,Database Optimization,16,Infrastructure,6,240,80,3,Mid,1,0.09,0.78,0.70,1,5,0,12,2,Low
+26,Cache Layer,16,Infrastructure,7,280,95,3,Mid,2,0.11,0.75,0.65,2,6,2,10,3,Medium
+27,Load Balancing,16,Infrastructure,10,420,140,5,Junior,3,0.19,0.60,0.50,4,9,3,8,5,Medium
+28,Log Aggregation,16,Infrastructure,8,310,105,4,Mid,2,0.13,0.68,0.58,2,7,2,9,3,Medium
+29,Monitoring System,17,Infrastructure,12,650,220,7,Junior,3,0.21,0.55,0.45,5,11,4,6,7,High
+30,Alert Management,17,Infrastructure,11,580,200,6,Junior,2,0.20,0.52,0.46,4,10,2,5,6,High
+31,Product Listing,15,Commerce,4,120,40,2,Senior,1,0.05,0.90,0.85,0,3,0,14,1,Low
+32,Product Details,15,Commerce,3,100,35,2,Senior,1,0.04,0.92,0.88,0,3,0,15,0,Low
+33,Product Ratings,16,Commerce,7,250,85,3,Mid,2,0.12,0.72,0.62,2,6,1,11,3,Medium
+34,Wishlist Feature,16,Commerce,5,180,60,2,Mid,1,0.08,0.85,0.78,0,4,1,13,1,Low
+35,Shipping Calculator,16,Commerce,8,320,110,4,Mid,2,0.13,0.70,0.60,2,7,2,10,3,Medium
+36,Tax Calculator,16,Commerce,9,380,130,5,Junior,2,0.17,0.62,0.52,3,8,1,9,4,Medium
+37,Order Tracking,16,Commerce,6,210,70,3,Mid,1,0.10,0.78,0.68,1,5,1,12,2,Medium
+38,Returns Processing,17,Commerce,12,620,210,7,Junior,3,0.22,0.50,0.42,5,11,3,6,6,High
+39,Refund Management,17,Commerce,11,550,190,6,Junior,2,0.20,0.55,0.48,4,10,2,5,5,High
+40,Loyalty Program,17,Commerce,10,480,160,6,Junior,2,0.18,0.58,0.50,3,9,2,7,5,Medium
+41,Recommendation Engine,17,Analytics,13,720,240,8,Junior,3,0.24,0.45,0.38,6,12,4,5,8,High
+42,Customer Analytics,17,Analytics,11,600,200,7,Junior,2,0.22,0.50,0.43,5,11,3,6,7,High
+43,Sales Reports,16,Analytics,7,280,95,3,Mid,2,0.11,0.75,0.65,2,6,1,10,2,Medium
+44,Performance Dashboard,16,Analytics,6,240,80,3,Mid,1,0.09,0.80,0.72,1,5,1,11,1,Low
+45,Custom Reports,16,Analytics,8,320,110,4,Mid,2,0.14,0.68,0.58,3,8,2,9,3,Medium
+46,Data Export,15,Analytics,4,130,45,2,Senior,1,0.05,0.88,0.82,0,3,0,14,1,Low
+47,API Documentation,15,Platform,3,80,30,1,Senior,1,0.02,0.95,0.90,0,2,0,16,0,Low
+48,API Versioning,16,Platform,6,210,70,3,Mid,2,0.10,0.78,0.70,1,5,1,12,2,Medium
+49,API Rate Limiting Upgrade,16,Platform,8,310,105,4,Mid,2,0.13,0.70,0.60,2,7,1,10,3,Medium
+50,Webhook System,17,Platform,10,450,150,6,Junior,2,0.19,0.55,0.47,4,9,3,7,5,Medium
+51,GraphQL Migration,17,Platform,14,780,260,8,Junior,3,0.23,0.48,0.40,6,13,5,5,8,High
+52,REST API Redesign,17,Platform,12,650,220,7,Junior,2,0.21,0.52,0.45,5,11,3,6,7,High
+53,Error Handling,15,Platform,5,160,55,2,Senior,1,0.04,0.92,0.88,0,4,1,14,0,Low
+54,Validation Framework,15,Platform,6,190,65,3,Mid,2,0.09,0.85,0.78,0,5,0,13,1,Low
+55,Configuration Management,16,Platform,7,260,90,3,Mid,2,0.11,0.75,0.65,1,6,1,11,2,Medium
+56,Dependency Updates,16,Platform,4,120,40,1,Senior,1,0.03,0.90,0.85,0,3,0,15,0,Low
+57,Security Patches,16,Security,5,150,50,2,Mid,2,0.08,0.88,0.82,0,4,1,14,1,Low
+58,Penetration Testing Fixes,17,Security,9,380,130,5,Mid,2,0.15,0.65,0.55,3,8,2,9,4,Medium
+59,GDPR Compliance,17,Security,11,580,200,7,Junior,3,0.20,0.52,0.45,4,10,2,6,5,Medium
+60,Data Privacy Updates,17,Security,10,480,160,6,Junior,2,0.18,0.58,0.50,3,9,2,7,5,Medium
+61,Help Documentation,15,Support,3,75,25,1,Senior,1,0.02,0.95,0.90,0,2,0,16,0,Low
+62,FAQ System,15,Support,4,100,35,2,Senior,1,0.03,0.92,0.88,0,3,0,15,0,Low
+63,Knowledge Base,16,Support,6,190,65,3,Mid,2,0.09,0.82,0.75,1,5,1,12,1,Low
+64,Support Ticketing,16,Support,9,350,120,4,Mid,2,0.13,0.70,0.60,2,7,2,10,3,Medium
+65,Live Chat Integration,17,Support,10,420,140,5,Junior,2,0.17,0.62,0.52,3,9,3,8,4,Medium
+66,Chatbot Implementation,17,Support,13,720,240,8,Junior,3,0.23,0.48,0.40,5,12,4,6,7,High
+67,Mobile App Login,15,Mobile,5,140,50,2,Mid,2,0.08,0.85,0.78,0,4,1,13,1,Low
+68,Mobile App Search,15,Mobile,4,110,40,2,Senior,1,0.04,0.90,0.85,0,3,0,14,0,Low
+69,Mobile App Cart,16,Mobile,8,300,100,4,Mid,2,0.12,0.72,0.62,2,7,1,11,3,Medium
+70,Mobile App Checkout,17,Mobile,11,550,190,6,Junior,2,0.20,0.55,0.48,4,10,2,7,5,Medium
+71,Push Notifications,16,Mobile,7,260,90,3,Mid,2,0.10,0.78,0.68,1,6,1,12,2,Medium
+72,Offline Support,17,Mobile,10,420,140,5,Junior,2,0.18,0.60,0.50,3,9,1,8,4,Medium
+73,App Analytics,16,Mobile,6,220,75,3,Mid,1,0.09,0.80,0.72,1,5,1,11,1,Low
+74,Crash Reporting,16,Mobile,5,180,60,2,Mid,1,0.07,0.85,0.78,0,4,1,13,1,Low
+75,App Localization,17,Mobile,12,640,220,7,Junior,3,0.21,0.52,0.45,4,11,2,7,6,High
+76,Admin Dashboard,15,Admin,6,200,70,3,Mid,2,0.10,0.80,0.72,1,5,1,12,2,Medium
+77,User Management,15,Admin,7,240,85,3,Mid,2,0.11,0.78,0.68,1,6,1,11,2,Medium
+78,Role Management,16,Admin,6,210,70,3,Mid,2,0.09,0.82,0.75,0,5,0,13,1,Low
+79,Permission Management,16,Admin,8,320,110,4,Mid,2,0.13,0.70,0.60,2,7,1,10,3,Medium
+80,Content Management,16,Admin,9,360,120,4,Mid,2,0.14,0.68,0.58,2,8,2,10,3,Medium
+81,Settings Management,16,Admin,5,160,55,2,Senior,1,0.05,0.88,0.82,0,4,0,13,1,Low
+82,Bulk Operations,17,Admin,11,580,200,6,Junior,2,0.19,0.55,0.47,4,10,1,8,5,Medium
+83,Data Migration Tool,17,Admin,13,720,240,7,Junior,3,0.22,0.48,0.40,5,12,2,7,6,High
+84,Backup Management,15,Admin,4,120,40,2,Senior,1,0.03,0.92,0.88,0,3,1,14,0,Low
+85,System Logs,15,Admin,5,150,50,2,Mid,1,0.08,0.85,0.78,0,4,0,14,1,Low
